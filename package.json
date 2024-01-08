@@ -1,0 +1,29 @@
+{
+  "name": "crystalia",
+  "main": "dist/bin/bin.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "npx tsc-watch --onSuccess \"node dist/bin/bin.js\"",
+    "build": "npx tsc",
+    "start": "node dist/bin/bin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/mssql": "^9.1.4",
+    "nodemon": "3.0.2"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "mssql": "^10.0.1",
+    "tedious": "^16.6.1"
+  }
+}
